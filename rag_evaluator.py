@@ -124,3 +124,17 @@ class RAGEvaluator:
             "hallucination_rate": hallucination,
             "hit_rate": hit
         }
+    
+
+#     from rag_evaluator import RAGEvaluator
+
+# evaluator = RAGEvaluator(groq_api_key="your_key")
+
+# results = evaluator.evaluate_all(
+#     question="What is RAG?",
+#     answer="RAG is retrieval augmented generation...",
+#     contexts=["chunk1 text", "chunk2 text"],
+#     ground_truth="RAG stands for retrieval augmented generation..."
+# )
+
+# print(results)
